@@ -48,65 +48,6 @@
 
 
     <!--This is for the button on the bottom-->
-    <RadioGroup
-
-        android:id="@+id/radio_group_list_selector"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:orientation="horizontal"
-        android:padding="4dp"
-        android:layout_gravity="bottom">
-
-        //some spaces
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:layout_weight="0.1"/>
-
-
-
-        //some spaces
-
-
-        <Button
-            android:id="@+id/radioNearBy"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:gravity="center_horizontal|center_vertical"
-            android:text="Find A spot"
-            android:layout_weight="1"/>
-
-        //some spaces
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:layout_weight="0.1"/>
-
-    </RadioGroup>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -133,7 +74,7 @@
         <View
             android:layout_width="1dp"
             android:layout_height="match_parent"
-            android:layout_weight="0.1"/>
+            android:layout_weight="0.15"/>
 
 
         <Button
@@ -142,16 +83,27 @@
             android:layout_height="match_parent"
             android:gravity="center_horizontal|center_vertical"
             android:text="I'm leaving"
-            android:onClick="sendMessa"
             android:layout_weight="1"
             />
         //some spaces
         <View
             android:layout_width="1dp"
             android:layout_height="match_parent"
-            android:layout_weight="0.1"/>
+            android:layout_weight="0.3"/>
 
+        <Button
+            android:id="@+id/radioCategory"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Find a spot"
+            android:layout_weight="1"
+            />
 
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"/>
 
         //some spaces
 
